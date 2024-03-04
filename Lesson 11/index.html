@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+
+    /* Пример стилей для навигационного меню в сайдбаре */
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <title>Flexbox Practice</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>Sidebar</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <h1>Main Content</h1>
+      <p>This is the main content area. It will expand to fill the available space.</p>
+    </div>
+  </div>
+
+</body>
+</html>

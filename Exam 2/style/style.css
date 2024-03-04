@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.divheader {
+
+    background: white;
+    height: 97.94px;
+}
+
+.logoheader {
+    margin-top: 24px;
+    margin-left: 170px;
+    width: 185px;
+    height: 49.94px;
+}
+
+.ulheader {
+    margin-top: -38px;
+    margin-left: 480px;
+    gap: 32px;
+    color: black;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    position: static;
+    width: 96px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li:hover {
+    color: rgb(222, 46, 84);
+}
+
+.buttonhead {
+    margin-left: 1100px;
+    margin-top: -33px;
+    position: static;
+    width: 189px;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(222, 46, 84);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(222, 46, 84);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.buttonhead:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(222, 46, 84);
+}
+
+.pictop {
+    width: 100%;
+}
+
+.h1top {
+    margin-top: -450px;
+    margin-left: 170px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.h1top1 {
+    margin-left: 170px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.buttontop {
+    margin-top: 48px;
+    margin-left: 170px;
+    position: static;
+    width: 189px;
+    height: 47px;
+    border: 2px solid rgb(222, 46, 84);
+    border-radius: 8px;
+    background: rgb(222, 46, 84);
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.buttontop:hover {
+    border: 2px solid rgb(222, 46, 84);
+    color: rgb(222, 46, 84);
+    background-color: white;
+}
+
+.hero {
+    margin-top: -121px;
+    margin-left: 600px;
+    width: 423px;
+    height: 482.28px;
+}
+
+.divbody {
+    height: 866px;
+}
+
+.hero {
+    width: 423px;
+    height: 482.28px;
+    margin-left: 900px;
+    margin-top: -217px;
+}
+
+.xizmat {
+    margin-top: 70px;
+    margin-left: 653px;
+    color: rgb(0, 0, 0);
+    font-family: Open Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+.hijoma {
+    margin-top: 33px;
+    margin-left: 288px;
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
+
+.h1hijoma {
+    margin-left: 555px;
+    margin-top: -180px;
+    color: rgb(34, 34, 34);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+.phijoma1 {
+    margin-top: 25px;
+    margin-left: 555px;
+    color: rgb(68, 68, 68);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.phijoma2 {
+    margin-left: 555px;
+    color: rgb(68, 68, 68);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.phijoma3 {
+    margin-left: 555px;
+    color: rgb(68, 68, 68);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.phijoma4 {
+    margin-left: 555px;
+    color: rgb(68, 68, 68);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.terapiya {
+    margin-left: 955px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
+
+.h1terapiya {
+    margin-left: 288px;
+    margin-top: -185px;
+    color: rgb(34, 34, 34);
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
+
+.pterapiya1 {
+    margin-left: 288px;
+    margin-top: 25px;
+    color: rgb(68, 68, 68);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.pterapiya2 {
+    margin-left: 288px;
+    color: rgb(68, 68, 68);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.pterapiya3 {
+    margin-left: 288px;
+    color: rgb(68, 68, 68);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.divbody1 {
+    height: 669px;
+    background: rgb(14, 180, 193);
+}
+
+.hero1 {
+    margin-left: 163px;
+    width: 330px;
+    height: 285.19px;
+    border-radius: 10px;
+}
+
+.hero2 {
+    margin-left: 60px;
+    width: 330px;
+    height: 285.19px;
+    border-radius: 10px;
+}
+
+.hero3 {
+    margin-left: 60px;
+    width: 330px;
+    height: 285.19px;
+    border-radius: 10px;
+}
+
+.heros {
+    position: absolute;
+    top: 1450px;
+}
+
+iframe {
+    margin-left: 163px;
+    margin-top: 112px;
+    border-radius: 10px;
+}
+
+
+
+
+.ulfooter {
+    margin-top: -42px;
+    margin-left: 772px;
+    gap: 32px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+    position: static;
+    width: 96px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    list-style: none;
+}

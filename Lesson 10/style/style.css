@@ -1,0 +1,47 @@
+/* CSS for a basic container class */
+.container {
+    width: 80%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container if desired */
+    box-sizing: border-box; /* Include padding and border in the total width */
+  }
+  
+  /* Example styling for elements inside the container */
+  .container p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    color: #0066cc;
+  }
+  .container {
+    display: flex;
+  }
+  .container {
+    flex-direction: row;
+  }
+  .container {
+    justify-content: space-between;
+  }
+  .container {
+    justify-content: space-between;
+  }
+  .item {
+    align-self: flex-end;
+  }
+  .item {
+    order: 2;
+  }
+  .item {
+    flex-grow: 1;
+  }
+                
+  .item {
+    flex-basis: 50%;
+  }
+  .item {
+    flex: 1 0 30%;
+  }
+                    

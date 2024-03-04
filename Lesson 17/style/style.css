@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    border-bottom: 1px solid #eeeef4;
+}
+.nav{
+    display: flex;
+    height: 89px;
+    align-items: center;
+   font-size: 16px;
+}
+.nav_list{
+    display: flex;
+    gap: 34px;
+    margin-left: 80px;
+}
+.nav_list-item{
+    list-style: none;
+}
+.nav_list-item_link{
+    text-decoration: none;
+    color: #101010;
+}
+.btn{
+    padding: 12px 24px;
+    font-size: 14px;
+    background-color: #101010;
+    color: white;
+    border: 1px solid #101010;
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+.btn:hover{
+    color: #101010;
+    background-color: white;
+}
+.firstSection{
+    margin-top: 92px;
+}
+.row{
+    display: flex;
+}
+.col{
+    width: 100%;
+}
+.takeBussines{
+    content: "Take Your";
+    display: block;
+}
+.takeBussines::after{
+    content: "level take out";
+    display: block;
+}
+.takeBussines_paragrapg{
+    font-size: ;
+    width: 85%;
+    margin-top: 20px;
+    font-weight: 400px;
+    color: #636f87;
+    line-height: 27px;
+}.bt{
+    margin-top: 40px;
+    padding: 20px 40px:
+}

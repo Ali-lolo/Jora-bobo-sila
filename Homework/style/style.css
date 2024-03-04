@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    height: 800px; 
+}
+
+.static-box {
+    position: static;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 20px;
+    background-color: lightyellow;
+    padding: 10px;
+}

@@ -1,0 +1,39 @@
+.container{
+    width: 1200px;
+    margin: 0 auto  ;
+
+
+
+    background-color: aqua;
+    ;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 50vh
+}
+.container {
+    display: flex;
+  }
+  .container {
+    flex-direction: row; /* or column, row-reverse, column-reverse */
+  }
+  .container {
+    flex-direction: row; /* or column, row-reverse, column-reverse */
+  }
+  .container {
+    justify-content: center; /* or flex-start, flex-end, space-between, space-around */
+  }
+  .container {
+    justify-content: center; /* or flex-start, flex-end, space-between, space-around */
+  }
+  .container {
+    align-items: center; /* or flex-start, flex-end, baseline, stretch */
+  }
+  .container {
+    align-content: space-between; /* or flex-start, flex-end, center, space-around, stretch */
+  }
+  

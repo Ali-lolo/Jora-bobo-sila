@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fa-telegram{
+    font-size: 30px;
+    color: rgba(76, 76, 215, 0.479);
+}
+li{
+    font-family: Mulish;
+}
+.find_doctor{
+margin: 100%;
+padding: 30%;
+}
+.apps{
+    margin: 100px;
+    padding: 100px;
+}
+.testimonials{
+    width: auto;
+    border-bottom-right-radius: 10%;
+}
+.css{
+    width: 100px;
+    margin: 10px;
+    margin: 100px;
+}
